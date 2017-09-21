@@ -1,0 +1,33 @@
+Module Requirements:
+1: nltk, install method from cmd: python -m pip install nltk
+initiate your python shell
+type the following codes:
+import nltk
+nltk.download('popular')
+
+2: pandas, install method from cmd: python -m pip install pandas
+
+3: scipy, install method:python -m pip install scipy
+			note, if pip dosnt work, you can go on https://pypi.python.org/pypi/scipy and download the wheel thats matches your python and system version.
+			then use python -m pip install filepath(you can drag the file into the CMD for this)
+
+4: scikit-learn, install method: python -m pip install scikit-learn
+
+6: google cloud sofware, install method: python -m pip install google.cloud
+whilst using mine key:
+creating a new user enviroment variable called GOOGLE_APPLICATION_CREDENTIALS, and for the value, you just need to input the json key file location.
+
+when need to setup new account
+Setting up API keys
+To create your application's API key:
+
+Go to the Cloud Platform Console. https://console.cloud.google.com/
+From the projects list, select a project or create a new one.
+Then on the search bar within the page, search for Google Cloud Natural Language API, and click enable when you click the result showed up within the search bar.
+If the APIs & services page isn't already open, open the left side menu and select APIs & services.
+On the left, choose Credentials.
+Click Create credentials and then select service account key.
+select your service account or setup a new one
+select key type json
+Then create a enviroment variable with in your system called GOOGLE_APPLICATION_CREDENTIALS, with its path to the the path to the file
+

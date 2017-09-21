@@ -1,0 +1,537 @@
+﻿ID,QUESTION,Class
+0,When was insulin first discovered?,informationanddefinition
+1,How many types of insulin are there?,informationanddefinition
+2,What determines the strengths of insulin?,informationanddefinition
+3,What are insulin Additives and allergies?,informationanddefinition
+4,How does alcohol affect Blood Sugar?,complications
+5,What is Alström Syndrome?,informationanddefinition
+6,What does Alström Syndrome Symptoms includes?,manifestation
+7,what is the causes of Alström syndrome?,cause
+8,How is Alström syndrome diagnosed?,diagnosis
+9,Can I get an artificial pancreas?,informationanddefinition
+10,What is an artificial pancreas?,informationanddefinition
+11,What is an Autoimmune Disease?,informationanddefinition
+12,What causes the immune system to act this way?,cause
+13,What are the most common autoimmune diseases?,informationanddefinition
+14,What are the symptoms of autoimmune diesease?,manifestation
+15,what is Binge Eating Disorders?,informationanddefinition
+16,What counts as binge eating?,informationanddefinition
+17,What can cause binge eating to take place?,cause
+18,How can hunger follow after recently eating?,informationanddefinition
+19,Are there any body parts I shouldn’t get pierced?,informationanddefinition
+20,How could bone marrow transplants treat type 1 diabetes?,management
+21,How is a bone marrow transplant carried out?,informationanddefinition
+22,Was bone marrow transplantation successful in treating type 1 diabetes?,management
+23,How does brittle diabetes develop and what is it associated with?,diagnosis
+24,Is brittle diabetes different from stable diabetes?,informationanddefinition
+25,What is the life expectancy with brittle diabetes?,informationanddefinition
+26,Is brittle diabetes common?,informationanddefinition
+27,Will I get brittle diabetes?,informationanddefinition
+28,How is brittle diabetes treated?,management
+29,Can People with Diabetes Give Blood?,informationanddefinition
+30,What are the conditions for giving blood?,informationanddefinition
+31,How to care for Someone with Diabetes?,management
+32,How to care for a child with diabetes?,management
+33,How to care for a partner with diabetes?,management
+34,How to care for an elderly person with diabetes?,management
+35,What are the Causes of Type 1 Diabetes?,cause
+36,What are type 1 diabetes triggers?,cause
+37,What are the causes of Type 2 Diabetes?,cause
+38,what are risk factors for type 2 diabetes?,complications
+39,How is diabetes caused in children?,cause
+40,What symptoms do children with diabetes exhibit?,manifestation
+41,How are children with diabetes treated?,management
+42,What can the parents of children with diabetes do?,informationanddefinition
+43,how to control Type 1 Diabetes?,management
+44,How to controlling Type 2 Diabetes?,management
+45,What can we learn from an HbA1c test?,diagnosis
+46,What are type 2 medications?,informationanddefinition
+47,What are the cost of Diabetes?,informationanddefinition
+48,what are the cost of diabetes complications?,informationanddefinition
+49,what are C-peptide Test?,diagnosis
+50,What is C-peptide?,informationanddefinition
+51,Why is a c-peptide test done?,diagnosis
+52,How is the test performed?,diagnosis
+53,what does C-peptide test results show?,diagnosis
+54,What is Critical Illness Cover?,informationanddefinition
+55,Why do I need Critical Illness Cover?,informationanddefinition
+56,Have Critical Illness products been available in the past?,informationanddefinition
+57,How does Critical Illness for Diabetes work?,informationanddefinition
+58,What does Critical Illness cost?,informationanddefinition
+59,What is cystic fibrosis?,informationanddefinition
+60,what are the symptoms of diabetes in cystic fibrosis?,manifestation
+61,what are the diagnosis of diabetes in cystic fibrosis?,diagnosis
+62,what are the causes of Cystic fibrosis?,cause
+63,what are the treatment for Cystic fibrosis?,management
+64,Waht are symptoms of dehydration?,manifestation
+65,What are the causes and contributory factors of dehydration?,cause
+66,What are symptoms of severe dehydration?,manifestation
+67,How does LADA compare with other diabetes types?,informationanddefinition
+68,How common is LADA?,informationanddefinition
+69,How is LADA diagnosed?,diagnosis
+70,How is LADA treated?,management
+71,What complications are related to LADA?,complications
+72,What is MODY diabetes?,informationanddefinition
+73,Why is MODY inherited so easily?,informationanddefinition
+74,Why does MODY differ from other strains of diabetes?,informationanddefinition
+75,what is the relation between Diabetes and Alcohol?,complications
+76,What are the recommended alcohol guidelines for people with diabetes?,informationanddefinition
+77,How much alcohol do drinks usually contain?,informationanddefinition
+78,So if I have diabetes I can drink as usual?,informationanddefinition
+79,What do I need to be careful of when it comes to diabetes and alcohol?,management
+80,what is the relation between Diabetes and Amputation?,complications
+81,Why is Diabetes is a leading cause of amputation?,cause
+82,What factors leads to amputation?,cause
+83,How are these factors assessed?,informationanddefinition
+84,What are major and minor amputations?,informationanddefinition
+85,How should I identify a foot at risk from amputation?,diagnosis
+86,What is the purpose of disability benefits?,informationanddefinition
+87,What benefits are available to me?,informationanddefinition
+88,what are Carbohydrate Controlled Diets?,management
+89,What is a carbohydrate controlled diet?,management
+90,what are Fixed carbohydrate intakes?,informationanddefinition
+91,what are Restricted carbohydrate diets?,informationanddefinition
+92,How do restricted carbohydrate diets work?,informationanddefinition
+93,what is the relation between diabetes and Cholesterol?,complications
+94,What is cholesterol?,informationanddefinition
+95,what are the Cholesterol targets for people with diabetes?,informationanddefinition
+96,what are the Symptoms of high cholesterol?,manifestation
+97,What causes high cholesterol?,cause
+98,how does Diet affect cholesterol?,complications
+99,how to Diagnose high cholesterol?,diagnosis
+100,how to Treat high cholesterol?,management
+101,Do I need tablets (statins) for high cholesterol?,informationanddefinition
+102,what is the relation between Diabetes and Coeliac Disease (Coeliac Sprue or Gluten Allergy)?,complications
+103,What symptoms are common in coeliac disease?,manifestation
+104,what is the relation Coeliac disease and children?,complications
+105,How large is the risk of coeliac disease in the UK?,complications
+106,What are the causes of coeliac disease?,cause
+107,Is there a link between diabetes and coeliac disease?,complications
+108,How will being coeliac affect my diabetes?,complications
+109,What diet should I use if I have coeliac disease and diabetes?,informationanddefinition
+110,Who can I turn to for help and advice about diabetes and coeliac disease?,management
+111,how is Diabetes and Dental Health related?,informationanddefinition
+112,how is Diabetes and dental hygiene related?,informationanddefinition
+113,how is Diabetes and gum diseases related?,informationanddefinition
+114,What are the symptoms of dental health problems?,manifestation
+115,How could Dental treatment affect blood sugar levels?,complications
+116,what is the relation between Diabetes and Depression?,complications
+117,What exactly is depression?,informationanddefinition
+118,How can depression affect my diabetes?,complications
+119,what is Diabulimia?,informationanddefinition
+120,What are the signs of diabulimia?,manifestation
+121,How does diabulimia work?,informationanddefinition
+122,How does diabulimia affect the body?,complications
+123,Will I lose my job if my diabetes causes me to have too much time off work?,informationanddefinition
+124,Can my employer reduce my pay because of leave for my diabetes?,informationanddefinition
+125,Do I need to inform the DVLA for my diabetes?,informationanddefinition
+126,what the relationship between Diabetes and Employment?,complications
+127,Are some jobs more suitable for people with diabetes?,informationanddefinition
+128,Are diabetics banned from doing some jobs?,informationanddefinition
+129,what is the relation between Diabetes and Ethnicity?,complications
+130,what are interesting Ethnicity facts of diabetes?,informationanddefinition
+131,how is Diabetes in India and China?,informationanddefinition
+132,what is the relation between Diabetes and Extreme Sports?,complications
+133,What are extreme sports?,informationanddefinition
+134,Why shouldn’t diabetics take part in extreme sports?,informationanddefinition
+135,What should diabetics wishing to participate in extreme sports do?,informationanddefinition
+136,what is the relation between Diabetes and Fitness?,complications
+137,what does Fitness and Exercise Guides do?,informationanddefinition
+138,What is the best kind of physical activity to help prevent or manage diabetes?,management
+139,what is Seize the moment?,informationanddefinition
+140,What problems can hot weather cause for people with diabetes?,complications
+141,What are the hypo risks from hot weather?,complications
+142,What is hyperglycemia?,informationanddefinition
+143,What causes hyperglycemia?,cause
+144,What are the symptoms of hyperglycemia?,manifestation
+145,Is hyperglycemia serious?,informationanddefinition
+146,How to avoid and deal with hyperglycemia?,management
+147,How does illness affect diabetes?,complications
+148,Which injection site is best?,informationanddefinition
+149,What else affects how fast insulin enters the blood?,complications
+150,What are ketones?,informationanddefinition
+151,How do I test for ketones?,diagnosis
+152,Who needs to be aware of ketones?,informationanddefinition
+153,Will I be able to lead a ‘normal’  life?,informationanddefinition
+154,What are the risk factors for metabolic syndrome?,complications
+155,What are the symptoms of metabolic syndrome?,manifestation
+156,What if I have some of these symptoms?,manifestation
+157,What is metabolism?,informationanddefinition
+158,How does insulin resistance lead to higher blood sugar levels?,complications
+159,What is nocturia?,informationanddefinition
+160,what are the Causes of nocturia?,cause
+161,what is the relation between Diabetes and nocturia?,complications
+162,How can nocturia be treated?,management
+163,what are the Links between obesity and type 2 diabetes?,complications
+164,How does obesity cause type 2 diabetes?,cause
+165,how to Make lifestyle changes?,informationanddefinition
+166,what is the relation between Pregnancy and Diabetes?,complications
+167,How does smoking increase my heart disease risk as a diabetic?,complications
+168,What other diabetes complications will smoking affect?,complications
+169,What benefits could giving up smoking give to me as a diabetic?,informationanddefinition
+170,What are stem cells?,informationanddefinition
+171,What is stem cell research?,informationanddefinition
+172,Where do stem cells come from?,informationanddefinition
+173,how is Stem cells use in islet cell transplants?,informationanddefinition
+174,What are the differences in diagnosing diabetes amongst the elderly when compared to diabetes amongst the young?,diagnosis
+175,What are the differences in treatment of diabetes amongst the elderly when compared to diabetes amongst the young?,management
+176,Are there increased risks when an elderly person develops diabetes?,complications
+177,Will diabetes treatment vary between each person?,management
+178,how does Diabetes affect the Family?,complications
+179,Why might someone with diabetes need the help and support of their family?,management
+180,How can one help relatives with diabetes?,management
+181,What healthy changes should I encourage my relative to make?,complications
+182,What else can I do to help the diabetic or diabetics in my family?,management
+183,Any other tips about diabetes and the family?,informationanddefinition
+184,Someone in my family has diabetes; do I have a greater risk of developing it?,complications
+185,Do I need to be screened for diabetes if a family member is diagnosed?,diagnosis
+186,What is the best weapon families can employ against diabetes?,informationanddefinition
+187,Which diet will help me to lose weight?,management
+188,How does exercise help diabetes and weight loss?,management
+189,Could alternative weight loss therapies help?,management
+190,Should I consider weight loss surgery?,informationanddefinition
+191,what are the Causes of Diabetes?,cause
+192,what are Type 1 diabetes causes?,cause
+193,what are Type 2 diabetes causes?,cause
+194,what are Other diabetes causes?,cause
+195,what causes Gestational diabetes?,cause
+196,what are the Symptoms of charcot foot?,manifestation
+197,what are the Causes of charcot foot?,cause
+198,what are the Treatment for charcot foot?,management
+199,what to do when Recovering from charcot foot?,informationanddefinition
+200,what are Diabetes Checks?,informationanddefinition
+201,what are Diabetes check ups for newly diagnosed people with diabetes?,diagnosis
+202,What is stress?,informationanddefinition
+203,What can cause stress?,cause
+204,How does stress affect my diabetes?,complications
+205,What is the fight-freeze or flight response?,informationanddefinition
+206,How can I combat stress?,informationanddefinition
+207,How does exercise help with stress?,management
+208,How does mindfulness meditation alleviate stress?,informationanddefinition
+209,What is a diabetes screening test?,diagnosis
+210,What kind of conditions are usually related to diabetes?,informationanddefinition
+211,Can some drugs cause diabetes?,cause
+212,What kind of problems could indicate diabetes?,manifestation
+213,what are Diabetes Drugs?,management
+214,Diabetes Drugs:what is Insulin?,management
+215,Diabetes Drugs: what are Biguanides / Metformin?,management
+216,Diabetes Drugs: what are Sulphonylureas?,management
+217,Diabetes Drugs: what are Meglitinides / Prandial glucose regulator / Glinides?,management
+218,Diabetes Drugs: what are Alpha-glucosidase inhibitors?,management
+219,Diabetes Drugs: what are Thiazolidinedione / Glitazones?,management
+220,Diabetes Drugs: what are DPP-4 inhibitors / Gliptins?,management
+221,Diabetes Drugs: what are Incretin mimetics / GLP-1 analogues?,management
+222,Diabetes Drugs: what are Amylin analogues?,management
+223,can I have a list of A-Z of diabetes drugs?,management
+224,What causes erectile dysfunction amongst diabetics?,cause
+225,How is ED diagnosed?,diagnosis
+226,Are there treatments for men with diabetes and erectile dysfunction?,management
+227,What is prediabetes?,informationanddefinition
+228,Does stress impact blood sugar levels?,informationanddefinition
+229,How many carbs can I eat on the Low Carb Program?,informationanddefinition
+230,Can I drink sugar free diet drinks?,informationanddefinition
+231,Can I come off insulin?,informationanddefinition
+232,How do I eat to my meter?,informationanddefinition
+233,What is fibre and should I avoid it?,management
+234,Why are my blood glucose levels high in the morning when I’m fasted?,informationanddefinition
+235,How do I get started on the program?,informationanddefinition
+236,Can I drink fruit juice?,informationanddefinition
+237,What snacks can I eat?,informationanddefinition
+238,What is glucagon?,informationanddefinition
+239,What can I have for breakfast that doesn’t involve egg?,informationanddefinition
+240,What can I have for breakfast that doesn’t involve bacon?,informationanddefinition
+241,What can I have for breakfast that doesn’t involve dairy?,informationanddefinition
+242,What can I have for breakfast?,informationanddefinition
+243,Is low carb making me tired?,informationanddefinition
+244,Is this program just for people with diabetes?,informationanddefinition
+245,Can I eat Potato?,informationanddefinition
+246,Can I eat sweet potato?,informationanddefinition
+247,Can I eat cassava?,informationanddefinition
+248,Can I eat yam?,informationanddefinition
+249,Can I eat yuca?,informationanddefinition
+250,Can I eat Chinese yam?,informationanddefinition
+251,Can I eat crisps?,informationanddefinition
+252,Can I eat cake?,informationanddefinition
+253,Are there any low carb cakes?,informationanddefinition
+254,Can I eat biscuits,informationanddefinition
+255,Are there any low carb biscuits?,informationanddefinition
+256,Can I eat cheesecake?,informationanddefinition
+257,Are there any low carb cheesecake recipes?,informationanddefinition
+258,Can I eat carrot cake?,informationanddefinition
+259,Are there any low carb carrot cake recipes?,informationanddefinition
+260,Can I eat cookies?,informationanddefinition
+261,Are there any low carb cookies?,informationanddefinition
+262,How do I add my blood sugar/glucose levels on the app?,informationanddefinition
+263,Can I eat chicken nuggets?,informationanddefinition
+264,Can I eat chocolate?,informationanddefinition
+265,Which dark chocolate brands are good for low carb?,informationanddefinition
+266,What coffee can I order from Starbucks?,informationanddefinition
+267,How do I make a healthy habit stick?,informationanddefinition
+268,Is raw sugar better than table sugar?,informationanddefinition
+269,What is protein?,informationanddefinition
+270,How much protein should I eat per day?,informationanddefinition
+271,Will eating fat make me fat?,informationanddefinition
+272,Can I drink beer?,informationanddefinition
+273,Should I take a multivitamin?,informationanddefinition
+274,Will sleep impact my blood sugar or weight?,informationanddefinition
+275,Can I eat cereal?,informationanddefinition
+276,Can I Cook with flour?,informationanddefinition
+277,Can I eat pasta?,informationanddefinition
+278,Can I eat whole wheat pasta?,informationanddefinition
+279,Can I eat whole wheat flour?,informationanddefinition
+280,Can I eat rice?,informationanddefinition
+281,Can I eat brown whole grain rice?,informationanddefinition
+282,Can I eat crackers?,informationanddefinition
+283,Can I eat rice cakes?,informationanddefinition
+284,Can I eat rye crackers,informationanddefinition
+285,Can I eat margarine?,informationanddefinition
+286,What is the glycaemic index? ,informationanddefinition
+287,Should I follow a low glycaemic index diet?,informationanddefinition
+288,Should I eat any foods for brain health?,informationanddefinition
+289,Can I eat blueberries?,informationanddefinition
+290,Can I eat eggs?,informationanddefinition
+291,Can I eat avocado?,informationanddefinition
+292,Will low carb help my libido?,management
+293,Can food increase my testosterone levels,informationanddefinition
+294,What is testosterone?,informationanddefinition
+295,Is it safe for a child to be on a low carb diet?,informationanddefinition
+296,What are statins?,informationanddefinition
+297,"I've been prescribed statins, should I take them?",informationanddefinition
+298,Can I exercise intensely on a low carb diet,informationanddefinition
+299,Is low carb just for people with type 2?,informationanddefinition
+300,Can I use sweeteners?,informationanddefinition
+301,Will low carb help to lower my sodium levels? ,management
+302,Can low carb cause depression?,cause
+303,Will low carb help my epilepsy?,management
+304,Will eating low carb cause nutrient deficiencies?,cause
+305,What are trans fats?,informationanddefinition
+306,What do I do first on the program?,informationanddefinition
+307,Should I sugar detox?,informationanddefinition
+308,Does low carb cause thyroid problem?,cause
+309,Do I need to eat carbs before exercise?,informationanddefinition
+310,What does no refined sugar mean?,informationanddefinition
+311,Does food with no refined sugar have any sugar in?,informationanddefinition
+312,Is unrefined sugar healthy?,informationanddefinition
+313,Can I drink alcohol?,informationanddefinition
+314,Can I drink wine?,informationanddefinition
+315,Can I drink cocktails?,informationanddefinition
+316,Will low carb reduce hunger and cravings?,informationanddefinition
+317,Is grass fed meat and dairy better?,informationanddefinition
+318,What is Omega 3?,informationanddefinition
+319,Should I eat more Omega 6?,informationanddefinition
+320,Do saturated fats cause heart disease?,cause
+321,Which foods contain saturated fats?,informationanddefinition
+322,Which foods contain monounsaturated fat?,informationanddefinition
+323,Which foods contain poly-unsaturated fats?,informationanddefinition
+324,How do I get more vitamin C on low carb?,informationanddefinition
+325,Does eating fat increase cholesterol levels?,informationanddefinition
+326,Is fat essential?,informationanddefinition
+327,Can I go low carb as a vegetarian?,informationanddefinition
+328,Can I go low carb as a vegan?,informationanddefinition
+329,Is a plant based diet safe whilst eating low carb?,informationanddefinition
+330,Can I eat Pecans on a low carb diet?,informationanddefinition
+331,Can I eat macadamia nuts?,informationanddefinition
+332,Can I eat pine nuts?,informationanddefinition
+333,Can I eat Brazil nuts?,informationanddefinition
+334,Can I eat peanuts?,informationanddefinition
+335,Can I eat cashews?,informationanddefinition
+336,Can I eat pistachios?,informationanddefinition
+337,What are medium-chain triglycerides? (MCT’s),informationanddefinition
+338,Should I take medium chain triglycerides?,informationanddefinition
+339,How do I get more vitamin D whilst on low carb?,informationanddefinition
+340,Can I drink beer?,informationanddefinition
+341,Is low carb good for your teeth?,informationanddefinition
+342,Can low carb help Alzheimer’s? ,management
+343,Can I drink milk?,informationanddefinition
+344,Can I drink Almond milk?,informationanddefinition
+345,Can I swap milk for cream in coffee?,informationanddefinition
+346,Can I drink hemp milk?,informationanddefinition
+347,Can I drink rice milk?,informationanddefinition
+348,Can I drink oat milk?,informationanddefinition
+349,Can I drink cashew milk?,informationanddefinition
+350,Can I drink coconut milk?,informationanddefinition
+351,Can I eat tomato soup?,informationanddefinition
+352,Can low carb help my polycystic ovarian syndrome (PCOS)?,management
+353,What is Polycystic ovarian syndrome(PCOS)?,informationanddefinition
+354,Can I eat canned soups?,informationanddefinition
+355,Can I eat fried chicken?,informationanddefinition
+356,Can I eat burgers?,informationanddefinition
+357,Can I eat Jam?,informationanddefinition
+358,Can I eat pizza?,informationanddefinition
+359,Can I eat popcorn?,informationanddefinition
+360,Can I eat at Subway?,informationanddefinition
+361,Can I eat at Burger King?,informationanddefinition
+362,Can I eat McDonalds?,informationanddefinition
+363,Can I eat KFC?,informationanddefinition
+364,Can I eat Nando’s?,informationanddefinition
+365,Can I eat at a pub?,informationanddefinition
+366,Can I eat dried fruit?,informationanddefinition
+367,Can I eat granola bars?,informationanddefinition
+368,Can I eat breakfast bars?,informationanddefinition
+369,Can I eat Nature Valley bars?,informationanddefinition
+370,Can I eat Cereal bars?,informationanddefinition
+371,Can I eat flapjacks?,informationanddefinition
+372,Can I eat muesli bars?,informationanddefinition
+373,Can I eat ketchup?,informationanddefinition
+374,Can I eat sweet chilli sauce?,informationanddefinition
+375,Can I eat brown sauce?,informationanddefinition
+376,Can I eat mayonnaise?,informationanddefinition
+377,Can I eat pasta sauce?,informationanddefinition
+378,Can I eat BBQ sauce?,informationanddefinition
+379,Can I eat hot sauce?,informationanddefinition
+380,Can I eat Gravy?,informationanddefinition
+381,Can I eat Sriracha sauce?,informationanddefinition
+382,Can I eat Tabasco sauce?,informationanddefinition
+383,Can I eat chilli sauce?,informationanddefinition
+384,Can I eat gummy vitamins?,informationanddefinition
+385,Can I eat salad dressing?,informationanddefinition
+386,Can I eat yoghurt?,informationanddefinition
+387,Can I make smoothies?,informationanddefinition
+388,Can I eat corned beef?,informationanddefinition
+389,Are there any low carb pasta alternatives?,informationanddefinition
+390,Can I follow this program to lose weight?,informationanddefinition
+391,Which vegetables should I eat?,informationanddefinition
+392,which foods contain healthy fats?,informationanddefinition
+393,Which vegetables should I avoid?,management
+394,Which foods should I avoid?,management
+395,Are there any good books on low carb?,informationanddefinition
+396,Any low carb snack ideas?,informationanddefinition
+397,What low carb sweet treats are there?,management
+398,What’s the max carbs I can eat per day?,informationanddefinition
+399,What’s the minimum amount of carbs I should eat per day?,informationanddefinition
+400,Will Low carb help my Non-Alcoholic Fatty Liver disease?,management
+401,What are the target blood glucose levels?,informationanddefinition
+402,Will the low carb program work for type 1?,informationanddefinition
+403,Why haven’t I lost any weight yet?,informationanddefinition
+404,Will low carb help lower my blood pressure?,management
+405,Is low carb high in salt?,informationanddefinition
+406,Is high blood pressure dangerous?,informationanddefinition
+407,What blood pressure numbers are healthy?,informationanddefinition
+408,Are there any low carb rice substitutes?,informationanddefinition
+409,"I’m lactose intolerant,  can I follow the Low Carb Program?",informationanddefinition
+410,Can I use stevia?,informationanddefinition
+411,Can I use erythritol?,informationanddefinition
+412,Can I cook with Splenda?,informationanddefinition
+413,Can I use aspartame to cook with?,informationanddefinition
+414,Can I cook with saccharin?,informationanddefinition
+415,Can I cook with sucralose?,informationanddefinition
+416,Can I cook with nutrinova?,informationanddefinition
+417,Will a low carb diet help my nephropathy?,management
+418,Will a low carb diet help my neuropathy?,management
+419,Will a low carb diet help my Peripheral neuropathy?,management
+420,Will a low carb diet help my autonomic neuropathy?,management
+421,What is neuropathy?,informationanddefinition
+422,What is retinopathy?,informationanddefinition
+423,What is background retinopathy?,informationanddefinition
+424,What is Proliferative retinopathy?,informationanddefinition
+425,What is diabetic maculopathy?,informationanddefinition
+426,Can I eat Honey?,informationanddefinition
+427,What is the target HbA1c for people on the programming? ,informationanddefinition
+428,what are the Causes of insulin resistance?,cause
+429,what are the causes of insulinoma,cause
+430,what are the causes of nocturnal hypoglycemia?,cause
+431,What causes impaired fasting glycemia?,cause
+432,What are the causes of Norovirus?,cause
+433,what are the causes of impaired glucose tolerance?,cause
+434,"what are the causes of Gestational Diabetes
+",cause
+435,"what are the causes of hemochromatosis?
+",cause
+436,what are the causes of hypo unawareness?,cause
+437,How is high blood pressure caused?,cause
+438,How is hyperinsulinemia caused?,cause
+439,How is glucagonoma caused?,cause
+440,What are the causes of impotence?,cause
+441,what is the risk factors for gestational diabetes,cause
+442,what is the relation between gestational diabetes and type 2 diabetes?,complications
+443,What is the link between diabetes and impotence?,complications
+444,What are the risk factors of glucagonoma?,complications
+445,What else does impaired glucose tolerance leave you at risk of?,complications
+446,"Which drugs can induce diabetes?
+",complications
+447,How will flu affect my blood sugar?,complications
+448,what are some conditions which can lead to diabetes?,complications
+449,what are the conditions linked with type 2 diabetes?,complications
+450,what are the conditions linked with type 1 diabetes?,complications
+451,How is insulinoma related to diabetes?,complications
+452,What are the risks of having hyperinsulinemia?,complications
+453,what are the long term effects of diabetes on the body?,complications
+454,what are the effect of diabetes on the heart?,complications
+455,what are the relation between Diabetes and strokes?,complications
+456,How diabetes affects the eyes,complications
+457,what are the Effect of diabetes on the kidneys?,complications
+458,what are the Effect of diabetes on the nerves?,complications
+459,what are the Effect of diabetes on digestion?,complications
+460,what are some neonatal diabetes Complications?,complications
+461,How diabetes affects the skin?,complications
+462,What is the link between Waist Size Risk and Diabetes?,complications
+463,what are the risk factors for Diabetes Mellitus?,complications
+464,how is HbA1c testing used in diagnosing diabetes?,diagnosis
+465,How is HbA1c tested?,diagnosis
+466,how to test for diabetes?,diagnosis
+467,how to diagnosis of insulinoma?,diagnosis
+468,How is impaired fasting glycemia diagnosed?,diagnosis
+469,How is high blood pressure diagnosed?,diagnosis
+470,how to diagnose of hemochromatosis?,diagnosis
+471,What tests are used to diagnose high blood pressure?,diagnosis
+472,hot to diagnose low testosterone?,diagnosis
+473,how to diagnoseneonatal diabetes?,diagnosis
+474,What defines having impaired glucose tolerance?,diagnosis
+475,how to test for Glucose intolerance?,diagnosis
+476,how to test for glucagonoma?,diagnosis
+477,how to diagnose Juvenile Diabetes and its epidemiology?,diagnosis
+478,how is impaired glucose tolerance diagnosed?,diagnosis
+479,What will the GAD test results show?,diagnosis
+480,How is diabetes insipidus diagnosed?,diagnosis
+481,what are the treatment for glucagonoma?,management
+482,how to cope with a hypoglycemia in front of your children?,management
+483,how to manage drug induced diabetes?,management
+484,How can I lower blood pressure whilst managing my diabetes?,management
+485,How can impotence be treated?,management
+486,What are some Herbal and Natural Therapies for diabetes?,management
+487,What is an intensive diabetes treatment therapy?,management
+488,How is impaired fasting glycemia treated?,management
+489,How is impaired glucose tolerance treated?,management
+490,how to improving your hypo awareness?,management
+491,how to treat neonatal diabetes?,management
+492,how to treating night time hypos?,management
+493,how to prevent night time hypoglycemia?,management
+494,what are nephrogenic diabetes insipidus treatments?,management
+495,how to treat diabetes insipidus?,management
+496,How to use desmopressin for treating neurogenic diabetes insipidus?,management
+497,how to treatment of insulinoma,management
+498,what are the treatment for glucose intolerance?,management
+499,what are the treatment of low testosterone?,management
+500,how to Manage Your Child’s Diabetes?,management
+501,How is Norovirus treated?,management
+502,How can I better manage menopause and diabetes?,management
+503,how to Preventing dehydration,management
+504,How is diabetes controlled?,management
+505,How do the dogs help to treat a hypo?,management
+506,How is hyperinsulinemia treated?,management
+507,how to treating a hypo and beating the hunger?,management
+508,what are the treatment of hemochromatosis?,management
+509,what are some symptoms of diabetes specific to men,manifestation
+510,"What are the symptoms of diabetes that are specific to women?
+",manifestation
+511,What are the symptoms of diabetes?,manifestation
+512,What are the symptoms of hypoglycemia?,manifestation
+513,What are the symptoms of diabetes insipidus?,manifestation
+514,What conditions are denoted by glucose intolerance?,manifestation
+515,what is the Symptoms of glucose intolerance?,manifestation
+516,what are the symptoms of Hemochromatosis?,manifestation
+517,what are High and Low Blood Pressure Symptoms?,manifestation
+518,What are the symptoms of high blood pressure?,manifestation
+519,What are the symptoms of low blood pressure?,manifestation
+520,what are the symptoms of high blood sugar?,manifestation
+521,what are the symptoms of low blood sugar?,manifestation
+522,What are the symptoms of hyperinsulinemia?,manifestation
+523,what are the symptoms of hypoglycemia at work?,manifestation
+524,What are the symptoms of impaired fasting glycemia?,manifestation
+525,What are the symptoms of impaired glucose tolerance?,manifestation
+526,What are the symptoms of insulinoma?,manifestation
+527,What are the symptoms of insulin resistance?,manifestation
+528,what are the Symptoms of low testosterone?,manifestation
+529,what are neonatal diabetes Symptoms?,manifestation
+530,what are the symptoms of night time hypoglycemia?,manifestation
+531,what are the symptoms of Norovirus?,manifestation
