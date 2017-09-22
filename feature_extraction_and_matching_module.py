@@ -27,6 +27,16 @@ import pandas as pd
 import ourfeatures2
 import functions_for_extracting_pronouns_and_entities_using_api as extract
 
+Question = 'what are the causes of type 2 diabetes?'
+
+nterms = 5
+
+###################################################################################        
+## The line of code below is for loading the database into the dataframe
+## this can be modified so it can interact with sql, and use the tables from sql
+###################################################################################
+Questions = pd.read_csv('CSVfiles\\sampledatabase.csv', index_col = 'ID', encoding = 'utf-8')
+
 ###############################################################
 ##Section for predicting the class of the question
 ###############################################################
@@ -87,13 +97,11 @@ def Question_features(sentence):
         
 
 
-Questions = pd.read_csv('sampledatabase.csv', index_col = 'ID', encoding = 'utf-8')
 
 ##matching the questions with the informations stored in the database
 #example    
-sentence = 'what are the causes of type 2 diabetes?'
-result = Question_features(sentence)# insert sentence of intrest, and run the file or code below to get the predicted class and named entites of the sentence entered.
-print(result)
+result = Question_features(Question)# insert question of intrest, and run the file or code below to get the predicted class and named entites of the sentence entered.
+#print(result)
 
 question_from_same_class = Questions[Questions['CLASS'] == result['Class'][1:]]
 
@@ -276,7 +284,7 @@ new = zip(eeee,eeeettl)
 ann = [float(x) / float(y) for x, y in zip(eeee,eeeettl)]
 
 #extracting the top 3 percentages entries within the entries from the questions with the same class as the answer.
-l22 = heapq.nlargest(3, ann)
+l22 = heapq.nlargest(nterms, ann)
 
 ######################################################
 
@@ -290,21 +298,32 @@ for s,num in counts.items():
 ######################################################
 
 #reextracting the best 3 matches from the list.
-l221 = heapq.nlargest(3, ann)
+l221 = heapq.nlargest(nterms, ann)
 
 #defining a function that would extract the best 3 matches from the above using their index and append the id and answer into a dictionary.
 def retrieving_Questions(dataframe):
     n = []
     for i in l221:
         n.append(ann.index(i))
-    Questionss = {}
+    n1 = []
     for i in n:
-        Questionss[i] = dataframe['ANSWER'].iloc[i]
+        a = dataframe.iloc[i].name
+        n1.append(a)
+    Questionss = {}
+    for i in n1:
+        Questionss[i] = dataframe['ANSWER'].loc[i]        
     return(Questionss)
 
+#extracting the answers
 nn = retrieving_Questions(question_from_same_class)
-    
-print(sentence)
+ 
+#printing the extracted answers
+print(Question)
+
+#Printing out the id of the answers thats recorded in the database.
+print(list(nn.keys()))
+   
+#Printing out the id of the answers with their respective answer.
 for key, value in nn.items():
     print('AnswerID:', key,': ', value.encode('UTF-8'))
 

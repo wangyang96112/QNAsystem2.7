@@ -12,7 +12,7 @@ import pandas as pd
 import nltk
 import functions_for_extracting_pronouns_and_entities_using_api as extract
 
-sampledatabase = pd.read_csv('sampledatabase.csv', index_col = 'ID', encoding = 'utf-8') #loading the original database
+sampledatabase = pd.read_csv('CSVfiles\\sampledatabase.csv', index_col = 'ID', encoding = 'utf-8') #loading the original database
 
 #######################################################################
 ### Analysing the new entries and appending them to the orginal sampledatabase
@@ -70,23 +70,27 @@ NewQuestions['AnswerAdjectives'] = AnswerAdjectives
 NewQuestions['AnswerNouns'] = AnswerNouns
 NewQuestions['AnswerEntities'] = AnswerEntities
 
+
+##first appending the new entries with the orginal database and return a csv files with the Duplicates.
 sampledatabase = sampledatabase.append(NewQuestions)
 sampledatabase = sampledatabase.reset_index()
 ID = []
 for i in range(len(sampledatabase['ANSWER'])):
     ID.append(i)
 sampledatabase['ID'] = ID
-sampledatabase.to_csv('sampledatabasewithDuplicates.csv', index=False, encoding = 'utf-8')
+sampledatabase.to_csv('CSVfiles\\sampledatabasewithDuplicates.csv', index=False, encoding = 'utf-8')
 
+#then selecting the duplicate questions, and extract those duplicates and saved in a csv file to store these duplicates to be checked.
 duplicates = sampledatabase.duplicated('QUESTION', keep = False)
 duplicateentries = sampledatabase[duplicates]
 duplicateentries = duplicateentries.sort_values(by = 'QUESTION')
-duplicateentries.to_csv('Duplicate_Questions.csv', index=False, encoding = 'utf-8')
+duplicateentries.to_csv('CSVfiles\\Duplicate_Questions.csv', index=False, encoding = 'utf-8')
 
+#lastly, removing all duplicate from the database except their 1st entry, so not duplicates remain, and return it as an updatated database sampledatabase1.
 sampledatabasenoduplicates = sampledatabase.drop_duplicates('QUESTION', keep = 'first')
 ID = []
 for i in range(len(sampledatabasenoduplicates['ANSWER'])):
     ID.append(i)
 
 sampledatabasenoduplicates['ID'] = ID
-sampledatabasenoduplicates.to_csv('sampledatabase1.csv', index=False, encoding = 'utf-8')
+sampledatabasenoduplicates.to_csv('CSVfiles\\sampledatabase1.csv', index=False, encoding = 'utf-8')

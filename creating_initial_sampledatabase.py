@@ -77,7 +77,7 @@ Questions['QuestionsEntities'] = QuestionsEntities
 Questions['AnswerAdjectives'] = AnswerAdjectives
 Questions['AnswerNouns'] = AnswerNouns
 Questions['AnswerEntities'] = AnswerEntities
-Questions.to_csv('sampledatabase.csv', encoding = 'utf-8')
+Questions.to_csv('CSVfiles\\sampledatabase.csv', encoding = 'utf-8')
 #this part will take a while, so ill omit those part of the code, and store and load the result as another csv file
 #can be implemented to parse a new annotated dataset
 
