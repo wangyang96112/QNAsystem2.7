@@ -104,9 +104,12 @@ question_from_same_class = Questions[Questions['CLASS'] == result['Class'][1:]]
 #entities of the 1st sentence of the answers.
 ######################################################
 
+#an empty list is created for each of the current intrested features used for matching for the answers
 AnswerAdjectives = []
 AnswerEntities = []
 AnswerNouns = []
+
+#creating for loop to separate each of the items in the list of the csv, and then append it to the empty list
 for items in question_from_same_class['AnswerNouns']:
     item = items[1:-1].split(',')
     a=[]
@@ -138,9 +141,12 @@ for items in question_from_same_class['AnswerAdjectives']:
 #but it uses the entities of the questions instead of the 1st sentence of the answers.
 ######################################################
 
+#an empty list is created for each of the current intrested features used for matching for the questions
 QuestionsAdjectives = []
 QuestionsEntities = []
 QuestionsNouns = []
+
+#creating for loop to separate each of the items in the list of the csv, and then append it to the empty list
 for items in question_from_same_class['QuestionsNouns']:
     item = items[1:-1].split(',')
     a=[]
@@ -171,10 +177,13 @@ for items in question_from_same_class['QuestionsAdjectives']:
 #####################################################
 #####Appending the entities of the questions and 1st sentences
 #####################################################
+
+#an empty list is created for each of the current intrested features
 Entities = []
 Nouns = []
 Adjectives = []
 
+#creating for loop to join both of the words extracted from the answers and questions within the database.
 for i in range(len(AnswerAdjectives)):
     result1 = AnswerAdjectives[i].union(QuestionsAdjectives[i])
     Adjectives.append(result1)
@@ -187,6 +196,9 @@ for i in range(len(AnswerAdjectives)):
 #####The counting functions for each feature
 #####################################################
 
+#The counting functions below would search through each row of our list from above,
+#then it would count at how many of the items within the list mathches the words extracted from the question entered.
+
 def counting_adjectives(results,rows):
     counts = 0
     adjectives = results['Adjectives']
@@ -195,9 +207,13 @@ def counting_adjectives(results,rows):
             counts += 1
     return(counts)
 
-
+# a empty list a is created to store each of the counts from using the definition.
 a = []
+# a empty list attl is created to store the length of the total amount of words
+# with in the words extrated from the answer and question entrie of the database.
 attl = []
+
+#a for loop is then used to append the results from the function and the question to the empty list created above.
 for rows in Adjectives:
     attl.append(len(rows))
     unique = list(rows)
@@ -242,31 +258,41 @@ for rows in Nouns:
     c.append(d)
 
 ######################################################
+
+#the codes below would sum the total matches of the entities, nouns and adjectives between the questions
+# and each entries within the database.
 e = zip(a,b,c)
 eeee = [sum(x) for x in e]
 eeee1 = eeee
 
+#The code below sums the total entries of adjectives of entities, nouns and adjectives from each entries within the database with the same class.
 ettl = zip(attl,bttl,cttl)
 eeeettl = [sum(x) for x in ettl]
 eeee1ttl = eeeettl
 
+#The code below calculates the percentage of how many words has matched with the question entered, against the total counts of 
+#unique adjective entities and nouns from each of the entries of the questions with the same class as the answer.
 new = zip(eeee,eeeettl)
 ann = [float(x) / float(y) for x, y in zip(eeee,eeeettl)]
-#ann = list(np.divide(eeee,eeeettl))
 
+#extracting the top 3 percentages entries within the entries from the questions with the same class as the answer.
 l22 = heapq.nlargest(3, ann)
 
 ######################################################
 
-counts = Counter(l22) # so we have: {'name':3, 'state':1, 'city':1, 'zip':2}
+#Making sure the 3 entries above have unqiue results and no repetitions.
+counts = Counter(l22)
 for s,num in counts.items():
     if (num > 1) and (s != 0): # ignore strings that only appear once
         for suffix in range(1, num + 1): # suffix starts at 1 and increases by 1 each time
             ann[ann.index(s)] = s + suffix # replace each appearance of s
 
 ######################################################
+
+#reextracting the best 3 matches from the list.
 l221 = heapq.nlargest(3, ann)
 
+#defining a function that would extract the best 3 matches from the above using their index and append the id and answer into a dictionary.
 def retrieving_Questions(dataframe):
     n = []
     for i in l221:
@@ -277,7 +303,6 @@ def retrieving_Questions(dataframe):
     return(Questionss)
 
 nn = retrieving_Questions(question_from_same_class)
-a = []
     
 print(sentence)
 for key, value in nn.items():
